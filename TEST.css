@@ -5783,20 +5783,8 @@ span.italic {
 }
 
 #field_id6 label,
-#field_id40 label {
+#field_id15 label {
 	display: none;
-}
-
-#field_id48 li::before {
-	content: '';
-	display: inline-block;
-	margin: 0 9px 1px 0;
-	outline: 1px solid var(--co-1);
-	outline-offset: 2px;
-	width: 4px;
-	height: 4px;
-	background: var(--co-1);
-	border-radius: 50%;
 }
 
 #userGame > *:not(.profile_data, #user_avatar),
@@ -5808,9 +5796,9 @@ span.italic {
 
 /* userInfos */
 
-#field_id1,
+#field_id3,
 #field_id-4,
-#field_id10 {
+#field_id4 {
 	display: grid;
 	grid-template: repeat(2, 1fr) / repeat(2, auto);
 	justify-content: center;
@@ -5818,28 +5806,28 @@ span.italic {
 	gap: 0 var(--spacing);
 }
 
-#field_id1::before,
+#field_id3::before,
 #field_id-4::before,
-#field_id10::before {
+#field_id4::before {
 	content: '\e979';
 	grid-row: 1 / span 2;
 	font-family: var(--font-ic);
 	color: var(--co-1);
 }
 
-#field_id1::before {
+#field_id3::before {
 	content: '\e99c';
 }
 #field_id-4::before {
 	content: '\e9db';
 }
-#field_id10::before {
+#field_id4::before {
 	content: '\ecfe';
 }
 
-#field_id1::after,
+#field_id3::after,
 #field_id-4::after,
-#field_id10::after {
+#field_id4::after {
 	content: '';
 	grid-column: 1 / span 2;
 	width: 100%;
@@ -5848,7 +5836,7 @@ span.italic {
 	background: var(--co-gradient);
 }
 
-#field_id1 label,
+#field_id3 label,
 #field_id-4 label {
 	font-family: var(--font-2);
 	font-style: italic;
@@ -5856,7 +5844,7 @@ span.italic {
 
 #field_id-6,
 #field_id-13,
-#field_id7 {
+#field_id5 {
 	text-align: center;
 }
 #field_id-6 field,
@@ -5868,12 +5856,12 @@ span.italic {
 
 #field_id-6 label,
 #field_id-13 label,
-#field_id7 label {
+#field_id5 label {
 	display: none;
 }
 #field_id-6 label span,
 #field_id-13 label span,
-#field_id7 field,
+#field_id5 field,
 #field_id-6 field::after,
 #field_id-13 field::after {
 	font-family: var(--font-2);
@@ -5895,15 +5883,15 @@ span.italic {
 }
 
 /* cwtw */
-#field_id10 {
+#field_id4 {
 	position: relative;
 }
 
-#field_id10 label {
+#field_id4 label {
 	grid-row: 1 / span 2;
 }
 
-#field_id10 label::after {
+#field_id4 label::after {
 	content: 'afficher au survol';
 	display: block;
 	font-weight: 600;
@@ -5911,12 +5899,12 @@ span.italic {
 	font-size: var(--small-size);
 }
 
-#field_id10:hover field {
+#field_id4:hover field {
 	opacity: 1;
 	visibility: visible;
 }
 
-#field_id10 field {
+#field_id4 field {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -5935,39 +5923,39 @@ span.italic {
 	transition: 0.3s all;
 }
 
-#field_id10 textarea {
+#field_id4 textarea {
 	width: 100%;
 	height: 46px;
 }
 
-#field_id3,
+#field_id7,
+#field_id11,
+#field_id9,
+#field_id10,
 #field_id4,
-#field_id36,
-#field_id37,
-#field_id5,
-#field_id2 {
+#field_id12 {
 	display: flex;
 	align-items: center;
 	gap: 5px;
 	font-size: var(--inter-size);
 }
 
-#field_id3 label,
+#field_id7 label,
+#field_id11 label,
+#field_id9 label,
 #field_id4 label,
-#field_id36 label,
-#field_id5 label,
-#field_id2 label,
-#field_id3 field,
+#field_id12 label,
+#field_id7 field,
+#field_id11 field,
+#field_id9 field,
+#field_id10 field,
 #field_id4 field,
-#field_id36 field,
-#field_id37 field,
-#field_id5 field,
-#field_id2 field {
+#field_id12 field {
 	display: inline-block;
 }
 
 .user_contacts #field_id:nth-of-type(2),
-#field_id37 label {
+#field_id10 label {
 	display: none;
 }
 
