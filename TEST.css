@@ -105,7 +105,7 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 .header_coded > a {
 	display: block;
 	grid-column: 1 / span 2;
-	text-align: center;
+	text-align: left;
 	font-family: var(--special-font);
 	line-height: 100%;
 	color: white;
