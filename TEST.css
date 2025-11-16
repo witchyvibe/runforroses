@@ -2020,6 +2020,7 @@ display: none;
 #fo_rsflood .forum-img {top: 10px;right: 15px;}
 
 /* catégories rp */
+#c2 .forumtitle span:not(:nth-child(2)),
 #c5 .forumtitle span:not(:nth-child(2)),
 #c8 .forumtitle span:not(:nth-child(2)) {
 	display: none;
