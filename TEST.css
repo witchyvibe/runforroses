@@ -1708,7 +1708,6 @@ display: none;
 	opacity: 0;
 }
 
-#c2 .forum_details,
 #c7 .forum_details,
 .fo_classic .forum_details {
 	display: none;
@@ -1779,7 +1778,6 @@ display: none;
 }
 
 #c1 .forum-img.bounce,
-#c2 .forum-img.bounce,
 #c7 .forum-img.bounce {
 	top: 10px;
 	padding: 20px 0 0 25px;
